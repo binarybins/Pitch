@@ -1,6 +1,8 @@
 import requests
 import json
 
+###some comments###
+
 lat = 1.371661
 lon = 103.823306
 API_key = 'mtPjpsrWZZXFco9TtddtQAv0PVtvql3s'
