@@ -10,7 +10,7 @@ url = f'https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appi
 ###5 day / 3 hour forecast data https://openweathermap.org/forecast5 ###
 forecast = f'https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API_key}'
 
-response = requests.get(url).json()
+response = requests.get(forecast).json()
 print(json.dumps(response, indent = 1))
 
 
